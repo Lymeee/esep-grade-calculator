@@ -1,18 +1,7 @@
-# ESEP Grade Calculator
-
-This library is a simple utility to calculate your grades.
-
-Runtime requirements:
-Golang 1.24+
-
-Run unit tests:
-```
-cd grade_calculator/
-go test ./...
-```
-
-Run unit tests with code coverage:
-```
-cd grade_calculator/
-go test -coverprofile=coverage.txt ./...
-```
+## Quickstart
+1. Install Go 1.24+
+2. `cd grade-calculator`
+3. Run tests:
+   ```bash
+   go test ./... -coverprofile="coverage.out"
+   go tool cover -func="coverage.out"
